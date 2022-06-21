@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animate__animated.animate__zoomInDown {
+    --animate-duration: 2301ms;
+   
+  }
+  
+
+
+.container{
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+}
+
+header{
+height: 100vh;
+
+}
+
+nav{
+height: 12vh;
+display: flex;
+justify-content: space-between;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+
+
+nav .logo{
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50px;
+    height:50px;
+    font-size: 45px;
+    border-radius: 50%;
+    list-style: none;
+    text-decoration: none;
+    color: tan;
+    
+
+
+
+}
+
+nav .info-general{
+   
+
+    text-decoration: none;
+    color: #a3905b;
+    border-bottom: 1px solid #000;
+    height: 20px;
+}
+
+
+
+/* fondo principal */
+
+.fondo-principal{
+    
+    height: 80vh;
+    background-image: linear-gradient(
+    0deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    )
+    ,url("images/acantilados-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #a3905b;
+background-position:  top center;
+
+}
+.img-container{
+
+}
+
+
+.img-container img{
+}
+
+
+.img-container p{
+font-size: 35px;
+color: rgba(44,43,43,1);
+    text-shadow: 2px 1px 1px #a3905b;
+}
+
+
